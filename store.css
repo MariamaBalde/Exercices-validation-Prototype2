@@ -1,0 +1,118 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital@0;1&display=swap');
+  
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    width: 100%;
+    height: auto;
+    min-height: 850px;
+    background-image: url(images/f5.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* background-position: center center; */
+    color: white;
+}
+
+  .store .container-fluid{
+    background: rgba(164.69, 52.39, 42.54, 0.69);
+    padding: 80px 250px;
+}
+.store .card{
+  border: 2px solid rgb(163, 34, 34);
+  background-color: transparent;
+  padding: 10px;
+}
+
+.store .card-body{
+    background-color: #F6E1C5;
+    padding: 0px 100px;
+    /* width: 700px;
+    margin: auto; */
+}
+
+
+.store .card-title{
+   font-size: 18px;
+   font-weight: 600;
+   font-family: 'Montserrat';
+}
+
+
+
+.store .card-subtitle{
+    font-size: 48px;
+    font-weight: 100;
+    font-family: 'Montserrat';
+}
+
+
+.store .card-text #content{
+   font-size: 18px; 
+   /* font-weight: 400; */
+   font-family: 'PT Serif', serif;
+}
+
+
+.store .card  hr{
+    width: 89%;
+    margin: auto;
+    margin-left: 50px;
+    /* margin-right: 50px; */
+}
+
+.store .card .card-body .p1{
+font-size: 18px;
+font-weight: 700;
+font-family: 'Poppins', sans-serif;
+}
+
+.store .card .card-body .p1 span{
+    font-size: none;
+    font-weight: none;
+    font-family: 'PT Serif', serif;
+    }
+
+.store .card .card-body .p2{
+    font-family: 'PT Serif', serif;
+}
+
+/* ---------------------------------------- */
+
+.about .content{
+    position: relative;
+    bottom:100px ;
+ }
+
+
+ .about .card-body{
+    background-color: #F6E1C5;
+    border: 1px solid #F6E1C5;
+    color: black;
+    padding: 40px;
+    font-family: 'Poppins', sans-serif;
+ }
+
+ .about .card-title{
+   font-size:18px;
+   font-weight: 700;
+   font-family: 'Montserrat';
+   word-wrap: break-word;
+ }
+
+ .about .card-text{
+    font-size: 37px;
+    font-weight: 100;
+    font-family: 'Montserrat';
+ }
+
+ .about .para-text{
+   font-size: 18px; 
+   font-weight: 400;
+   font-family: 'Montserrat';
+ }

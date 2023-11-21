@@ -1,0 +1,59 @@
+@media (max-width:991) {}
+
+@media (max-width:767px) {
+  /* ----------------------------------------------------------Home page ----------------------------------------------------- */
+
+
+  .coffee .card {
+    position: relative;
+    top: -250px;
+    /* left: 1px; */
+  }
+
+  .coffee img{
+   width: 50px;
+  }
+
+
+  .coffee .card-body .para-text {
+    font-size: 15px;
+  }
+
+  .promise{
+    margin-top: -200px;
+}
+
+  .promise .container-fluid {
+    padding: 20px 50px 20px 50px;
+  }
+
+    /* ----------------------------------------------------------Home page end ----------------------------------------------------- */
+
+
+
+    /* ----------------------------------------------------------About  page----------------------------------------------------- */
+
+  .about .card-body{
+    padding: 9px 2px;
+ }
+
+   /* ----------------------------------------------------------Store page ----------------------------------------------------- */
+
+   .store .container-fluid{
+    padding: 0px 0px;
+}
+
+.store .card{
+  padding: 0px;
+}
+
+.store .card-body{
+  padding: 0px 0px;
+}
+
+.store .card  hr{
+  width: 100%;
+  margin: auto;
+}
+
+}

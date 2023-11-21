@@ -1,0 +1,34 @@
+.product .card{
+ background-color: #F6E1C5;
+ border-color: #F6E1C5;
+}
+
+.product #top{
+    position: relative;
+    top: 60px;
+}
+
+.product #bottom{
+    position: relative;
+    bottom: 60px;
+}
+
+.product .card-title{
+    font-size: 14px;
+    font-weight: 600;
+    font-family: 'Montserrat';
+}
+
+.product .card-subtitle{
+     font-size: 36px;
+     font-weight: 100;
+     font-family: 'Montserrat';
+     word-wrap: break-word;
+}
+
+.product .card-text{
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Montserrat';
+}
+
